@@ -1,0 +1,352 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+html,.App,.vue-tempalte,body{
+   
+
+    align-content: center !important;
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(12, 11, 11, 0) 0.52%, #0C0B0B 26.04%); 
+
+}
+
+#modal-1,
+#bv-modal-aprove,
+#bv-modal-delete{
+    .modal-content,.close{
+    color: white;
+    background: rgb(46, 45, 45) }
+}
+
+#cart{
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #fdfeff;
+    }
+}
+
+#crearcancion, #editcancion{
+
+    .row{
+        margin: 1rem 0rem 0.5rem 0rem;
+        align-items: center !important;
+        align-content: center !important;
+        align-self: center !important;
+        --bs-gutter-x:0rem;
+
+    }
+
+    .is-valid{
+        .form-control{
+            border: 4px solid #037520;
+        }
+    }
+
+    .is-invalid{
+        .form-control{
+            border: 4px solid #fc0404;
+        }
+    }
+
+                .img-thumbnail{
+                    margin: 1rem 0rem 0.5rem 0rem;
+                    max-width: 100%;
+                    max-height: 200px;
+                    align-self: center;
+                }
+}
+
+#songInList{
+    font-weight: bold;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+#listOfSongs:hover{
+    background-color: #c2bbbb;
+    text-decoration: underline;
+}
+
+#popover-search{
+    overflow-y: auto;
+    max-height: 220px;
+}
+
+#close-modal{
+    margin-bottom: 5px;
+}
+
+#app{
+
+    [v-cloack]{
+        display:none;
+    }
+    #admin{
+
+        background-color: black !important;
+        color: white !important;
+
+    
+        a.text-danger{
+            color:rgb(20, 20, 32) !important;
+        }
+
+        a.text-danger:hover{
+            color:rgb(17, 17, 168) !important;
+        }
+        a.text-danger:focus{
+            color:rgb(5, 5, 34) !important;
+        }
+    }
+    #lista{
+        color: white;
+        background-color:rgb(43, 41, 41);
+
+        .tabs,.list-group-item {
+            background-color:black;
+            color:white;
+        }
+
+        #modal{
+            color: white !important;
+            background-color: #0C0B0B;
+        }
+    }
+
+    
+    box-shadow: 0px 4px 4px rgba(236, 234, 234, 0.25);
+    color: white;
+    min-width: 100%;
+    min-height: 100%;
+
+    .btn{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 0.1rem;
+        margin-right: 0.1rem;
+    }
+
+    
+
+    @media (max-width:567px){
+
+        ul.paginate-links.canciones.pagination{
+
+            align-items: center !important;
+            padding: 0rem 0rem 0rem 0rem !important;
+            display: inline-flex;
+            font-size:0.68rem;
+            
+        }
+
+        .page-items{
+            font-size:0.68rem;
+            max-width: fit-content;
+            display: inline-flex;
+        }
+
+    }
+
+    ul.paginate-links.canciones.pagination{
+
+        align-items: center !important;
+        padding: 0rem 0rem 0rem 0rem !important;
+        display: inline-flex;
+  
+        
+    }
+
+    .page-items{
+        max-width: fit-content;
+        display: inline-flex;
+    }
+
+
+
+
+
+    
+    .navbar {
+
+        background-color: #0C0B0B;
+        min-width: 100%;
+        height: auto;
+
+        .btn{
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+        }
+      
+
+        img.rounded-circle{
+
+            margin-top:0.2rem;
+            margin-right: 0.5rem;
+            max-width: 40px;
+            max-height: 40px;
+        }
+
+        .img-logo{
+            height: 60px;
+        }
+
+        .searchInput{
+            border-radius: 15px;
+            margin-right: 20px;
+            width: 180px;
+            transition: all 0.5s ease-out;
+        }
+
+        .searchInput:focus{
+            width: 300px;
+        }
+
+        .img-fluid{
+            height: 25px;
+            width: 25px;
+        }
+
+        .advancedSearch{
+            margin-left: 10px;
+        }
+
+        .loginImg{
+            width: 85px;
+            border-radius: 15px;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top:0.5rem;
+            background-color: rgb(173, 33, 131);
+            border: none;
+        }
+
+        .loginImg:hover{
+            background-color: rgb(109, 16, 73);
+        }
+
+        .createSong{
+            margin-right: 20px;
+        }
+
+
+
+
+
+    }
+
+    #carousel{
+        background-size:cover;
+    }
+
+    
+
+    #cancionitem{
+
+        .card{
+            border-style: outset !important; 
+            border-radius: 2%;
+            border-color: #c2bbbb;
+            align-content: center !important;
+            text-align: justify;
+            max-width: 100%;
+        
+            .col-6{
+                
+                align-self: center;
+                align-content: center;
+                align-items: center !important;
+                max-width: 100%;
+                margin: 1rem 0rem 0.5rem 0rem;
+            }
+           
+            h4.card-title {
+                font-size: 0.8rem !important;
+                margin-bottom: 0.2rem;
+            }
+
+            .img {
+                max-width: 30px;
+                max-height: 30px;
+
+            }
+
+            .btn{
+                font-size:0.9rem;
+                box-sizing: border-box;
+                
+            }
+
+            p.muted{
+                font-size: 0.8rem !important;
+            }
+        }
+       
+    }
+    .ol,ul{
+        padding-left: 0rem;
+    }
+
+    .mybutton.btn-secondary {
+        width: 50px;
+        height: 50px;
+        background-color:black;
+      
+    }
+
+    .bg-info{
+        background-color:black !important;
+    }
+        
+    .mycol1{
+        
+        align-items:center;
+        align-self: center;
+        align-content: center;
+    }
+
+    .row{
+        align-content: center;
+    }
+
+}
+
+.login{
+   
+        background:black;
+        border-radius:10px;
+        border-color: #c2bbbb;
+        max-width:50%;
+        
+    
+}
+
+.vistaletra{
+
+    background: rgb(12, 12, 12);
+
+    .center{
+        
+        background-color: #2d082e;
+        //max-width: 60%;
+        border-radius:10px;
+    }
+}
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+
+#cart{
+    .table td{
+        color: rgb(255, 255, 255);
+        vertical-align: middle;
+
+     }    
+}
