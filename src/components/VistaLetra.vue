@@ -3,7 +3,7 @@
 <b-container v-if="selectedSong" class="center py-4">
 <h1>{{selectedSong.name}}</h1>
 <h5>Autor: {{selectedSong.autor}}</h5>
-<b-row class="justify-content-md-center"><b-col cols="md-6 m-10"> {{selectedSong.letra}}</b-col></b-row>
+<b-row id="lyricsSong" class="justify-content-md-center"><b-col cols="md-6 m-10"> {{selectedSong.letra}}</b-col></b-row>
 </b-container> 
 </div>
 </template>

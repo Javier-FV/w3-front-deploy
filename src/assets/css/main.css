@@ -96,3 +96,7 @@
     transition: none;
     color: #222222;
   }
+  
+  #lyricsSong{
+    white-space: pre-wrap;
+}
